@@ -1,0 +1,14 @@
+use ninerscart
+
+
+db.users.drop();
+db.createCollection("users");  
+
+
+db.users.insert([{
+        "userId" : "sri24",
+        "firstName" : "Srinath",
+        "lastName" : "Muralinathan",
+        "emailAddress" : "srinathrupa786@gmail.com",
+	 "password" : "rupa123$"
+}]);
